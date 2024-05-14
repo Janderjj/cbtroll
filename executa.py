@@ -26,5 +26,4 @@ def index():
 def cadtorneio():
     return render_template('cad_torneio.html')
 if __name__ == "__main__":
-    app.run(
-        debug=True)
+    app.run()
